@@ -1,0 +1,35 @@
+.player-container{
+height:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:0 25px;
+}
+
+.player-left{
+display:flex;
+gap:15px;
+align-items:center;
+}
+
+.album-art{
+width:55px;
+height:55px;
+background:#333;
+border-radius:5px;
+}
+
+.player-center{
+display:flex;
+gap:15px;
+}
+
+.player-center button{
+background:none;
+color:white;
+font-size:20px;
+}
+
+.player-right{
+color:#b3b3b3;
+}
