@@ -1,0 +1,32 @@
+.album-card {
+  width: 190px;
+  background: #181818;
+  padding: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.album-card:hover {
+  background: #282828;
+}
+
+.album-cover {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.album-card h3 {
+  font-size: 18px;
+  color: white;
+}
+
+.album-card p {
+  color: #b3b3b3;
+  font-size: 14px;
+}

@@ -3,22 +3,23 @@ import "./Player.css";
 function Player() {
   return (
     <div className="player-container">
-      <div className="player-left">
-        <div className="album-art"></div>
-        <div>
-          <h4>No song</h4>
-          <p>Select a song</p>
-        </div>
+
+      <div>
+        <h4>No Song Playing</h4>
       </div>
-      <div className="player-center">
+
+      <div className="controls">
         <button>⏮</button>
         <button>▶</button>
         <button>⏭</button>
       </div>
-      <div className="player-right">
+
+      <div>
         Volume
       </div>
+
     </div>
   );
 }
+
 export default Player;

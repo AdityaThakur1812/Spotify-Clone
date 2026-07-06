@@ -1,35 +1,23 @@
-.player-container{
-height:100%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:0 25px;
+.player-container {
+  height: 100%;
+  background: #181818;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  border-top: 1px solid #2a2a2a;
 }
 
-.player-left{
-display:flex;
-gap:15px;
-align-items:center;
+.controls {
+  display: flex;
+  gap: 15px;
 }
 
-.album-art{
-width:55px;
-height:55px;
-background:#333;
-border-radius:5px;
-}
-
-.player-center{
-display:flex;
-gap:15px;
-}
-
-.player-center button{
-background:none;
-color:white;
-font-size:20px;
-}
-
-.player-right{
-color:#b3b3b3;
+.controls button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
 }
