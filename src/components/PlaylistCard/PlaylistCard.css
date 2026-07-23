@@ -1,0 +1,33 @@
+.playlist-card {
+  width: 220px;
+  background: #181818;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.playlist-card:hover {
+  background: #282828;
+}
+
+.playlist-cover {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.playlist-card h3 {
+  font-size: 18px;
+  color: white;
+}
+
+.playlist-card p {
+  color: #b3b3b3;
+  font-size: 14px;
+  line-height: 1.5;
+}

@@ -1,20 +1,24 @@
 .home {
   display: flex;
+
   flex-direction: column;
-  gap: 40px;
+
+  gap: 50px;
 }
 
 .home h1 {
-  font-size: 34px;
-  margin-bottom: 10px;
+  font-size: 36px;
 }
 
 .home h2 {
   margin-bottom: 20px;
 }
 
+.playlists-grid,
 .albums-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
   gap: 24px;
 }
