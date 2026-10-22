@@ -1,0 +1,45 @@
+.song-row {
+  display: grid;
+  grid-template-columns: 40px 60px 1fr 60px;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.song-row:hover {
+  background: #282828;
+}
+
+.song-index {
+  color: #b3b3b3;
+}
+
+.song-cover {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.song-info h4 {
+  font-size: 16px;
+  color: white;
+}
+
+.song-info p {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.song-duration {
+  justify-self: end;
+  color: #b3b3b3;
+}

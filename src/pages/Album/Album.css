@@ -1,0 +1,40 @@
+
+.album-page {
+  padding: 24px;
+  color: white;
+}
+
+.album-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.album-header img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.album-header p {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.album-header h1 {
+  margin-bottom: 12px;
+  font-size: 36px;
+}
+
+.album-header h3 {
+  color: #b3b3b3;
+  font-weight: 400;
+}
+
+.album-tracks {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
