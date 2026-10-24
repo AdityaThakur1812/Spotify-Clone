@@ -43,3 +43,16 @@
   justify-self: end;
   color: #b3b3b3;
 }
+
+.song-play-button {
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  min-width: 28px;
+}
+
+.song-play-button:hover {
+  color: #1ed760;
+}
